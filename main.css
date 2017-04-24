@@ -1,0 +1,9 @@
+.buttonHolder {
+	text-align: center;
+	margin-top: 300px;
+}
+
+button {
+	font-size: 25px;
+	background-color: lightblue;
+}

@@ -3,7 +3,9 @@
 	margin-top: 300px;
 }
 
-button {
+.start {
 	font-size: 25px;
 	background-color: lightblue;
+	margin-right: 200px;
+	margin-left: 200px;
 }

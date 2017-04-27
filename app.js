@@ -1,16 +1,24 @@
 console.log("hello");
 
+
+
 $(document).ready(function(){
-	function show Question {
-		if $(".start").click(function(){
-			$(".question 1").show();
-		});
-	}
+	
 	function showAnswer() {
-		if $(".wrong").click(function(){
-			$(".question").hide();
-			$(".incorrect").show();
+		if $(".right").click(function(){
+			$(".correct").toggleClass(".hidden");
 		});
+
+		else {
+			$(".incorrect").toggleClass(".hidden");
+		}
 	};
+
+	function next() {
+		$(.next).click(function() {
+			$(".question").next(removeClass(".hidden");
+		}
+	}); 
+	}
 
 });

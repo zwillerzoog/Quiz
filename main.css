@@ -1,11 +1,15 @@
-.buttonHolder {
-	text-align: center;
-	margin-top: 300px;
-}
 
 .start {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	right:50%;
 	font-size: 25px;
-	background-color: lightblue;
-	margin-right: 200px;
-	margin-left: 200px;
+	background-color: #a8e7f4;
+	border: 2px solid lightgrey;
+	border-radius: 5px;
+}
+
+.buttonholder {
+	margin: auto;
 }

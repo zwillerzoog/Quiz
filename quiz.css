@@ -46,7 +46,7 @@ button {
 }
 
 .next {
-	position: fixed;
+	position: absolute;
 	top: 80%;
 	left: 72%;
 }
